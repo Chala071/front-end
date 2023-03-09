@@ -1,15 +1,6 @@
 <app-menu></app-menu>
 
 <div class="contenedor">
-
-
-<h2>Cines</h2>
-<app-listado-peliculas [peliculas]="peliculasEnCines"></app-listado-peliculas>
-
-<h2>Futuros estrenos</h2>
-<app-listado-peliculas [peliculas]="peliculasProximosEstrenos"></app-listado-peliculas>
-
+    <router-outlet></router-outlet>
 </div>
 
-<!-- <input type="file" style="display:none" #cargador>
-<button (click)="cargador.click()">Cargar Archivo</button> -->
